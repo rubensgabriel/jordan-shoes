@@ -1,8 +1,52 @@
 @charset "UTF-8";
-body{
-    background-image: url(imagens/wandavision5.jpg);
-    background-position: center;
-    background-size: cover;
+
+*{
+    margin: 0;
+}
+h1{
+    color: #474747;
+    text-align: center;
+    margin: 15px;
+}
+header > p{
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+    text-align: center;
+}
+header > div{
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.473)), url(estilo/img/wallpaper.jpeg);
+    height: 320px;
     background-attachment: fixed;
-    
+    background-size: cover;
+    background-position: 20%;
+}
+header > div >div{
+    color: aliceblue;
+    width: 400px;
+    padding: 30px;
+}
+
+section{
+    margin: 20px;
+    text-align: center;
+    line-height: 2em;
+}
+section > div{
+    margin: 20px;
+}
+section > div >img{
+    width: 260px;
+    background-color: rgba(17, 17, 17, 0.034);
+    margin: 7px;
+}
+section > div >img:hover{
+    background-color: rgba(17, 17, 17, 0.13);
+    box-shadow:0px 0px 0px 1.4px #474747 inset;
+    transition-duration: 0.7s;
+}
+
+footer{
+    background-color: rgb(15, 14, 14);
+    color: aliceblue;
+    text-align: center;
 }
