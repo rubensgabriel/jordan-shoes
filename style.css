@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body{
+    background-image: url(imagens/wandavision5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
