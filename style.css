@@ -20,6 +20,7 @@ header > p{
 }
 header > div{
     background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.623)), url(estilo/img/wallpaper.jpeg);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.623);
     height: 320px;
     background-attachment: fixed;
     background-size: cover;
@@ -41,6 +42,7 @@ section{
 section > div{
     margin: 20px;
 }
+
 .conteudo{
     background-color: rgba(17, 17, 17, 0.034);
     margin: 7px;
@@ -56,7 +58,6 @@ section > div{
     transition-duration: 0.7s;
     
 }
-
 .comprar {
     position: absolute;
     background: rgba(243, 238, 238, 0.6);
@@ -71,7 +72,6 @@ section > div{
     opacity: 1;
   }
   .comprar a {
-    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 1.1rem;
     padding: 5px 30px;
@@ -82,12 +82,10 @@ section > div{
     transform: translate(-50%, -50%);
     border-radius: 4px;
   }
-
-
-
 a{
     text-decoration: none;
 }
+
 footer{
     background-color: rgb(15, 14, 14);
     color: aliceblue;
@@ -103,6 +101,7 @@ footer > a:hover{
     text-decoration: underline;
     font-weight: 600;
 }
+
 @media(max-width:690px){
     h1{
         font-size: 1.6em;
