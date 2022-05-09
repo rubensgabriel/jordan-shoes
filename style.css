@@ -41,18 +41,50 @@ section{
 section > div{
     margin: 20px;
 }
-section > div > div{
+.conteudo{
     background-color: rgba(17, 17, 17, 0.034);
     margin: 7px;
     width: 260px;
     display: inline-block;
+    position: relative;
+    border-radius: 4px;
     
 }
-section > div > div:hover{
+.conteudo:hover{
     background-color: rgba(17, 17, 17, 0.13);
-    box-shadow:0px 0px 0px 1.4px #474747 inset;
+    box-shadow:0px 0px 0px 1.4px #1f1124e1 inset;
     transition-duration: 0.7s;
+    
 }
+
+.comprar {
+    position: absolute;
+    background: rgba(243, 238, 238, 0.6);
+    height: 225px;
+    width: 260px;
+    top: 0;
+    opacity: 0;
+    transition: 1.2s ease-in-out;
+  }
+  
+  .comprar:hover {
+    opacity: 1;
+  }
+  .comprar a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ECD6C4;
+    font-size: 1.1rem;
+    padding: 5px 30px;
+    background: #1f1124e1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+  }
+
+
+
 a{
     text-decoration: none;
 }
@@ -61,6 +93,7 @@ footer{
     color: aliceblue;
     text-align: center;
     padding: 10px;
+    margin-top: 50px;
 }
 footer > a {
     color: white;
